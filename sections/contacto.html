@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Instituto Lemm</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./instalaciones.html">Instalaciones</a>
+                </li>
+                <li>
+                    <a href="./horarios.html">Horarios</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h1>Realiza tu consulta</h1>
+    
+    <main>
+        <form action=""> 
+            <fieldset>
+                <legend>Tu consulta</legend> 
+                <div>
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div>
+                    <label for="Localidad">¿En que Localidad vivis?</label>
+                    <select name="Localidad" id="Localidad"> 
+                        <option value="Lomas">Lomas de zamora</option> 
+                        <option value="Temp">Temperley</option>
+                        <option value="Ban">Banfield</option>
+                        <option value="Adr">Adrogue</option> 
+                        <option value="Sj">San jose</option>
+                        <option value="Mar">Marmol</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="phone">Telefono</label>
+                    <input type="tel" name="phone" id="phone">
+                    </div>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id="edad"> 
+                </div>
+                <div>
+                    <label for="edad">Fecha de nacimiento</label>
+                    <input type="date" name="f nac" id="f nac">
+                </div>
+                <div>
+                    <label for="correo">Tu correo</label>
+                    <input type="email" name="correo" id="correo">
+                </div>
+                <div> <label for="comentario">Dejanos tu consulta</label>
+                    <textarea name="comentario" id="comentario" cols="50" rows="5"
+                    placeholder="comentanos tus dudas o sugerencias"></textarea>
+                </div>                 
+                <div>
+                    <h2 class="subtituloFormulario">¿Donde nos conociste?</h2>
+                    <input type="checkbox" name="insta" id="insta">
+                    <label for="insta">instagram</label>
+                    <input type="checkbox" name="twit" id="twit">
+                    <label for="twit">twitter</label>
+                    <input type="checkbox" name="recomendacion" id="recomendacion">
+                    <label for="recomendacion">Recomendacion</label>
+                </div>
+                <div>
+                    <input type="submit" value="Envianos tu consulta">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <a href="https://www.instagram.com/" target="_blank"><img src="../img/icons8-instagram.svg"> </a>
+        <a href="https://es-la.facebook.com/" target="_blank"><img src="../img/icons8-facebook-nuevo.svg"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="../img/icons8-twitter.svg"></a>
+    </footer>
+</body>
+</html>

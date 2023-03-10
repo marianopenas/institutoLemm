@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: lightgoldenrodyellow;
+    font-weight: 100;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 30px;
+    word-spacing: 2cm;
+}
+
+ul li{
+    display: inline-block;    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tituloInicio{
+    padding: 0;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.subtituloFormulario{
+    text-align: left;
+}
+
+.h3Inicio{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px 90px;
+    padding: 25px;
+    border: 2px solid lightblue;
+}
+
+footer{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    word-spacing: 5cm;
+    padding: 5px;
+}
+
+main img{
+    margin: 20px 20px;
+    padding: 10px;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+} 
+
+h3{
+    padding: 10px;
+}
+
+main p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px 90px;
+    padding: 25px;
+    border: 2px solid lightblue;
+}
+
+main form div{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px 10px;
+    padding: 5px;
+    background-color:lightseagreen;
+}
+
+fieldset legend{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+table{
+    padding: 5px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+body{
+    background-color: lightcyan;
+}
+
+.precios{
+    background-color: yellowgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
